@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-Lab LIS Dashboard</title>
+  <link rel="stylesheet" href="./assets/main.css">
+  <link rel="stylesheet" href="./assets/mediaquerry.css">
+</head>
+<body>
+  <div class="container">
+  <!-- header -->
+   <header class="header">
+    <div class="logo-section">
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="">
+      </div>
+      <div class="company-name">e-Lab LIS</div>
+      <div class="hamburger-menu">
+      <img src="./assets/images/hamburger_menu.png" class="hamburger-icon" alt="">
+      <div class="name">Your Laboratory Name</div>
+      </div>
+    </div>
+    <div class="notification-userProfile">
+      <div class="notification">
+        <img src="./assets/images/notification.png" alt="">
+      </div>
+      <div class="user-profile">
+        <div class="user-pfp">
+          <img src="./assets/images/user_pfp.png" alt="">
+        </div>
+        <div class="user_name">Isaac Odinaka</div>
+      </div>
+      <div class="down-arrow">
+        <img src="./assets/images/arrow_down.png" alt="">
+      </div>
+    </div>
+   </header>
+
+   <div class="side-menu" id="hamburgerMenu">
+      <ul>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/fnt0ffice_icon.png" alt="">
+          </span>
+          <span class="menu">Front Office</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/phleb_icon.png" alt="">
+          </span>
+          <span class="menu">Phlebotomy</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/lab.png" alt="">
+          </span>
+          <span class="menu">Laboratory</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/admin.png" alt="">
+          </span>
+          <span class="menu">Admin</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/dispatch.png" alt="">
+          </span>
+          <span class="menu">Dispatch</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/analyzers.png" alt="">
+          </span>
+          <span class="menu">Analyzers</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/QC.png" alt="">
+          </span>
+          <span class="menu">QC</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/account.png" alt="">
+          </span>
+          <span class="menu">Account</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/inventory.png" alt="">
+          </span>
+          <span class="menu line">Inventory</span>
+          <span class="up_arrow_icon">
+            <img src="./assets/images/arrow_up.png" alt="">
+          </span>
+        </li>
+      </ul>
+      <div class="close">
+          <span>&times;</span>
+        </div>
+      </div>
+
+   <!-- sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/fnt0ffice_icon.png" alt="">
+          </span>
+          <span class="menu">Front Office</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/phleb_icon.png" alt="">
+          </span>
+          <span class="menu">Phlebotomy</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/lab.png" alt="">
+          </span>
+          <span class="menu">Laboratory</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/admin.png" alt="">
+          </span>
+          <span class="menu">Admin</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/dispatch.png" alt="">
+          </span>
+          <span class="menu">Dispatch</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/analyzers.png" alt="">
+          </span>
+          <span class="menu">Analyzers</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/QC.png" alt="">
+          </span>
+          <span class="menu">QC</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/account.png" alt="">
+          </span>
+          <span class="menu">Account</span>
+          <span class="down_arrow_icon">
+            <img src="./assets/images/arrow_down.png" alt="">
+          </span>
+        </li>
+        <li class="menu-item">
+          <span class="icon">
+            <img src="./assets/images/inventory.png" alt="">
+          </span>
+          <span class="menu line">Inventory</span>
+          <span class="up_arrow_icon">
+            <img src="./assets/images/arrow_up.png" alt="">
+          </span>
+        </li>
+      </ul>
+      <span class="scrollbar">
+        <img src="./assets/images/scrollbar.png" alt="">
+      </span>
+    </aside>
+
+    <!-- main content -->
+     <main class="main-content">
+      <div class="left">
+        <span>Blank Page</span>
+      </div>
+      <div class="right">
+        <span class="home">Home <img src="./assets/images/arrow_right.png" alt=""></span>
+        <span class="page1">Page 1 <img src="./assets/images/arrow_right.png" alt=""></span>
+        <span class="page2">Page 2</span>
+      </div>
+     </main>
+
+     <!-- footer -->
+      <footer class="footer">
+        <div class="left">
+          <span>e-Lab LIS by Netwalkers NG (c) 2022. All right reserved</span>
+        </div>
+        <div class="right">
+          <ul class="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+            <li><a href="#" class="privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </footer>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
